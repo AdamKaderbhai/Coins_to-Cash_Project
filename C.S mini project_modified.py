@@ -33,16 +33,16 @@ def make_change(money=0):
     num_pennies = int(money // 0.01)
     money %= 0.01
 
-    print({hundred_bills}, "hundred dollar bills")
-    print({fifty_bills}, "fifty dollar bills")
-    print({twenty_bills}, "twenty dollar bills")
-    print({ten_bills}, "ten dollar bills")
-    print({five_bills}, "five dollar bills")
-    print({one_bills}, "one dollar bills")
-    print({num_quarters}, "quarters")
-    print({num_dimes}, "dimes")
-    print({num_nickels}, "nickels")
-    print({num_pennies}, "pennies")
+    print(hundred_bills, "hundred dollar bills")
+    print(fifty_bills, "fifty dollar bills")
+    print(twenty_bills, "twenty dollar bills")
+    print(ten_bills, "ten dollar bills")
+    print(five_bills, "five dollar bills")
+    print(one_bills, "one dollar bills")
+    print(num_quarters, "quarters")
+    print(num_dimes, "dimes")
+    print(num_nickels, "nickels")
+    print(num_pennies, "pennies")
 
 def coins_to_cash():
     cash_value = get_coins()
